@@ -1,5 +1,5 @@
 context:
-  version: "1.13.0"
+  version: "1.14.0"
 
 package:
   name: go-size-analyzer
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/Zxilly/go-size-analyzer/archive/refs/tags/v${{ version }}.tar.gz
-  sha256: 160415a10eaa2c1151dda1e8913d5d1ccf912cd7c18e35a673b88ac72667e507
+  sha256: 66d4b05cc2bd09d10ff1e2c91d00fd1fe96ff30050699c0e57f6c0c0b9a4c2cb
   target_directory: src
 
 build:
